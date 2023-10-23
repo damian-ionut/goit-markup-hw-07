@@ -19,6 +19,7 @@ body {
 .main_nav {
 display: none;
 }
+
 .contact_item {
 display: none;
 
@@ -1287,8 +1288,8 @@ button {
 .socialmedia_icon_hamburger{
     display: flex;
     flex-direction: row;
-    gap: 56px;
-    margin-left: 40px;    
+    gap: 45px;
+    margin-left: 120px;
 }
 
 .social_menu_bar{
@@ -1296,9 +1297,9 @@ button {
 }
 
 .nav_item_ul_menu {
-    /* margin-top: -60px; */
+    /* margin-top: -40px; */
     margin-bottom: 200px;
-    margin-left: 40px;    
+    margin-left: 50px;    
 }
 .nav_item_list_menu {
     font-family: var(--primary-font);
@@ -1307,6 +1308,8 @@ button {
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: left;
+        margin-left: 40px;    
+
 }
 
 .phone-number-menu {
@@ -1317,8 +1320,7 @@ button {
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: left;
-    margin-left: 40px;   
-    margin-left: 40px;   
+    margin-left: 120px;   
 }
 
 .social_icon_link_menu {
@@ -1327,8 +1329,7 @@ button {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-left: 40px;
-    margin-left: 40px;    
+    margin-left: 120px;
 
 }
 
@@ -1377,9 +1378,7 @@ button {
     height: 36px;
     border: 1px solid #0000001A;
     display: flex;
-    text-align: center;
     justify-content: center;
-    align-items: center;
 }
   
 .js-close-menu:hover,
