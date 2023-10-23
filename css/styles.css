@@ -39,7 +39,7 @@ display: none;
     margin-bottom: 30px;
     text-align: center;
   }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
     .title {
       margin-bottom: 50px;
     }
@@ -92,7 +92,7 @@ display: none;
 }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
 
 .main_logo {
     margin-top: 0px;
@@ -344,7 +344,7 @@ textarea:focus {
     margin-top: 5px;
 }
   
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
 
 .modal {
     position: absolute;
@@ -535,7 +535,7 @@ element.style {
 }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
 .team_qualities_section {
     display: flex;
     justify-self: center;
@@ -593,7 +593,7 @@ ul.team_qualities {
 
 /* What we do */
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
 
     .whatwedo_section {
         font-family: var(--primary-font);
@@ -644,7 +644,7 @@ ul.team_qualities {
     }    
 }
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1249px) {
     .whatwedo{
     display: none;
     }
@@ -720,7 +720,7 @@ ul.team_qualities {
 
 
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -805,7 +805,7 @@ ul.team_qualities {
     } 
 }   
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
 
     .list_client {
         display: flex;
@@ -1219,7 +1219,7 @@ ul.team_qualities {
 
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1250px) {
     .subscribe_form{
     display: flex;
     align-items: center;
@@ -1429,7 +1429,7 @@ button {
 }
 
   /* Desktop */
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1250px) {
     .menu-button {
         display: none;
 }
