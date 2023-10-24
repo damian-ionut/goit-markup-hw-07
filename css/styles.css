@@ -500,13 +500,19 @@ element.style {
 
 /* Team Qualities */
 
+.team_qualities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .team_qualities_section {
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #ffffff;
     margin-bottom: -100px;
-}
+} 
 
 .team_qualities_skill {
     text-align: center;
@@ -520,24 +526,23 @@ element.style {
     text-align: center;
     margin-bottom: 72px;
 
-}
+} 
 
 .team_qualities_icon {
     display: block;
     margin-top: 25px;
     align-content: center;
-    margin-left: 170px;
+    margin-left: 130px;
     margin-bottom: 80px;
-    padding-top: 25px;
 }
 
 .team_qualities_list {
     display: block;
     height: 120px;
+    width: 320px;
     background-color: #f5f4fa;
-    border-radius: 4px;
     margin-top: 10px;
-    width: 400px;
+    /* width: 400px; */
     border-radius: 4px;
     align-items: center;
     margin-bottom: 155px;
@@ -557,7 +562,7 @@ element.style {
     grid-template-rows: auto;
     row-gap: 12px;
     column-gap: 24px;
-
+    margin-left: -40px;
 }
 
 .team_qualities_text {
@@ -595,15 +600,20 @@ element.style {
 
 
 @media screen and (min-width: 1250px) {
+.team_qualities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 90px;
+}
+
 .team_qualities_section {
     display: flex;
     justify-self: center;
-    flex-direction: row;
     top: 774px;
     width: 1170px;
     height: 251px;
     margin-bottom: 0px;
-
   }
 
   .team_qualities {
@@ -616,7 +626,6 @@ element.style {
 }
 
 .team_qualities_text {
-
     text-align: left;
     margin-bottom: 72px;
 }
@@ -819,10 +828,11 @@ ul.team_qualities {
 
 .list_client {
     display: grid;
-    grid-template-columns: 168px 168px;
+    grid-template-columns: 148px 148px;
     grid-template-rows: auto;
     row-gap: 64px;
     column-gap: 24px;
+    margin-left: -20px;
 }
 
 .list_client_li {
@@ -1415,6 +1425,7 @@ button {
 .js-menu-container {
     display: none;
   }
+
   
 .js-menu-container.is-open {
     display: flex;
@@ -1464,7 +1475,7 @@ button {
 
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 758px) {
 
     .menu-button {
         display: none;
