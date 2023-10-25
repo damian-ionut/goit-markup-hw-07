@@ -13,6 +13,56 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <div class="js-menu-container">
+      <button class="menu-toggle js-close-menu">&times;</button>
+
+      <nav class="menu-drawer-navigation">
+        <ul class="nav_item_ul_menu">
+          <li class="nav_item_list_menu">
+            <a href="index.html">Studio</a>
+          </li>
+          <br />
+          <li class="nav_item_list_menu current">
+            <a href="portofolio.html" style="color: #2196f3">Portofolio</a>
+          </li>
+          <br />
+          <li class="nav_item_list_menu"><a href="#contacts">Contacts</a></li>
+        </ul>
+        <div class="social_menu_bar">
+          <a href="tel:+12127724150" class="phone-number-menu">
+            +1 212-772-4150
+          </a>
+          <br />
+          <a class="social_icon_link_menu" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </div>
+        <br />
+        <div class="socialmedia_icon_hamburger">
+          <a class="social_icon" href="#">
+            <svg class="social_icon_svg" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+          <a class="social_icon" href="#">
+            <svg class="social_icon_svg" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+          <a class="social_icon" href="#">
+            <svg class="social_icon_svg" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+          <a class="social_icon" href="#">
+            <svg class="social_icon_svg" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </div>
+
     <!-- Menu Bar -->
 
     <header class="menu_header">
@@ -54,6 +104,11 @@
             <a href="tel:+12127724150">+1 212-772-4150</a>
           </li>
         </ul>
+      </div>
+      <div class="menu-button js-open-menu">
+        <svg>
+          <use href="./images/symbol-defs.svg#icon-menu"></use>
+        </svg>
       </div>
     </header>
 
@@ -255,7 +310,7 @@
     <!-- Contact Adress -->
     <footer class="main_footer">
       <section class="all_footer">
-        <section class="main_logo">
+        <section class="main_logo_footer">
           <a
             href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=74568-301&mode=design&t=quNgdQ1KRycnPcf1-0"
             target="_blank"
@@ -305,6 +360,7 @@
             </li>
           </ul>
         </div>
+
         <div class="subscribe_form">
           <form action="" autocomplete="off" method="get" name="email_form">
             <b class="subscribe_text">Subscribe to the newsletter</b>
@@ -332,13 +388,13 @@
         </div>
       </section>
     </footer>
-  </body>
 
-  <script
-    defer
-    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"
-  ></script>
-  <script src="./js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
 </html>

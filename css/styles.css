@@ -960,6 +960,7 @@ ul.team_qualities {
 
 .button_portofolio {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
 }
