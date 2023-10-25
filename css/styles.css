@@ -506,7 +506,10 @@ element.style {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: -35px;
 }
+
+
 .team_qualities_section {
     display: flex;
     flex-direction: column;
@@ -605,7 +608,7 @@ element.style {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 90px;
+    margin-left: 0px;
 }
 
 .team_qualities_section {
@@ -706,6 +709,7 @@ ul.team_qualities {
         top: 1061px;
         justify-content: center;
         align-items: center;
+        margin-left: -35px;
     }
     .whatwedo_list {
         position: relative;
@@ -751,6 +755,7 @@ ul.team_qualities {
     grid-template-rows: auto;
     row-gap: 64px;
     column-gap: 24px;
+    margin-left: -45px;
 }
 }
 
@@ -778,6 +783,13 @@ ul.team_qualities {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+    margin-left: -30px;
+}
+
+@media screen and (min-width: 758px) {
+    .ourteam_list {
+        margin-left: 0px;
+    }
 }
 
 
@@ -1094,6 +1106,7 @@ ul.team_qualities {
     font-weight: 400;
     background-color: #2F303A;
     font-size: 26px;
+    margin-left: -35px;
     /* padding-left: 115px; */
 
 
